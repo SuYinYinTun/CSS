@@ -1,0 +1,86 @@
+.firstdiv{
+	width: 200px;
+	height: 100px;
+	/*background-color: #f1b8cf;
+	background-color: hsl(345.25, 65.56%, 64.71%);
+}*/
+
+
+/*background-color: rgb(255, 145, 0);*/
+
+background-color: rgba(10, 145, 45, 0.5);
+color:#fff;
+font-size:20px;
+
+}
+
+.seconddiv{
+	width:600px;
+	height:800px;
+	background-image:url('../Photo/Queen.jpg');
+	/*background: url('../Photo/Queen.jpg');*/
+	background-repeat:no-repeat;
+/*	background-repeat: repeat-x;
+	background-repeat: repeat-y;*/
+
+	background-position: center;
+	border: 5px solid green;
+}
+
+.div3{
+	width:300px;
+	height:300px;
+	border:5px solid blue;
+
+	/*linear gradient*/
+	/*background: linear-gradient(purple,black,pink,white,yellow);*/
+	/*background-image: linear-gradient(red,green,blue);
+*/	/*background: linear-gradient(rgba(10, 145, 45, 0.5),rgba(11, 165, 45, 1.0),rgba(155, 115, 50, 0.5))*/
+
+	/*background: linear-gradient(
+		90deg;
+		red,
+		green,
+		yellow);*/
+
+	/*radial-gradient*/
+		/*background: radial-gradient(red,green,blue);
+		background: radial-gradient(rgba(10, 145, 45, 0.5),rgba(11, 165, 45, 1.0),rgba(155, 115, 50, 0.5))*/
+
+	/*	background: radial-gradient(
+			rgba(223,92,127,0.5),
+			rgba(94,229,127,0.5),
+			rgba(47,112,127,0.5)),
+		 url('../Photo/1.jpg');*/
+
+
+ 	/*background: linear-gradient(
+ 		red 50%,
+ 		green 40%);*/
+
+ 	background: linear-gradient(
+ 		red 30%,
+ 		yellow 0 80%,
+ 		blue 0%);
+}
+
+.div4{
+	width:200px;
+	height: 300px;
+	border: 5px solid red;
+	background: linear-gradient( 45deg,
+		rgba(223,92,127,0.5),
+		rgba(94,229,127,0.5),
+		rgba(47,112,127,0.5)),
+		url('../Photo/1.jpg');
+		background-repeat: no-repeat;
+}
+
+
+
+/*color 
+
+1. man
+2. mix
+3. rgb
+4. rgba*/

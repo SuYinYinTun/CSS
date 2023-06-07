@@ -1,0 +1,42 @@
+:root{
+	--oe: orange;
+	--rd: red;
+	--gr: green;
+	--bl: blue;
+	--vl: violet;
+}
+
+.div1{
+	width: 100px;
+	height: 100px;
+	background: var(--oe);
+	float: left;
+}
+
+.div2{
+	width: 200px;
+	height: 200px;
+	background: var(--rd);
+	float: left;
+}
+
+.div3{
+	width: 300px;
+	height: 300px;
+	background: var(--gr) ;
+	float: left;
+}
+
+.div4{
+	width: 400px;
+	height: 400px;
+	background: var(--bl);
+	float: left;
+}
+
+.div5{
+	width: 500px;
+	height: 500px;
+	background: var(--vl);
+	float: left;
+}

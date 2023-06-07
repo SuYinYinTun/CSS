@@ -1,0 +1,45 @@
+/*selectors{
+			properties:value;
+		}
+
+*/
+
+h1{
+	color: red;
+}
+
+#hh{
+	color: green;
+}
+
+.hhh{
+	color: #e97317;
+}
+
+h4{
+	color: #ff96df;
+}
+
+.paragraph{
+	color: green;
+	font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Type of Selectors
+1. Tag h1
+2. id #hc
+3. class .hcc*/

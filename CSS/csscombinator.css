@@ -1,0 +1,80 @@
+/*Tag to Tag*/
+
+div span{
+	color:red;
+}
+
+/*Tag to Tags*/
+
+div span p{
+	color: red;
+}
+
+/*Tag to Class*/
+
+div .address{
+	color: green;
+}
+
+/*Multi tag to Class*/
+
+div span .name{
+	color: red;
+}
+
+/*Multi tag to Same Class*/
+
+div span small.name{
+	color: blue;
+}
+
+/*Multi Class to Class*/
+
+.bank .money .currency{
+	color: purple;
+}
+
+/*Tag to Multi Class*/
+
+div .name .age{
+	color: pink;
+}
+
+/*Class to Tag*/
+.container b{
+	color: green;
+}
+
+/*Class to Multi tag*/
+.container b span{
+	color:blue;
+}
+
+/*Same Class*/
+/*
+.mobile{
+	color: red;
+}
+*/
+div .mobile.ios{
+	color: blue;
+
+}
+
+ /*General Sibling Selector*/
+
+ .div1 .div2 p{
+ 	color: blue;
+ }
+
+.div1 .special{
+	color: yellow;
+}
+
+.div3 i{
+	color: pink;
+}
+
+.end{
+	color: gold;
+}

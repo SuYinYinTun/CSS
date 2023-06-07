@@ -1,0 +1,140 @@
+.container .circle{
+	width:200px;
+	height: 200px;
+	/*background-color: green;*/
+	border-radius: 50%;
+	background:radial-gradient(
+		red, 
+		green, 
+		blue, 
+		black);
+}
+
+.container .circle2{
+	width:200px;
+	height: 200px;
+	/*background-color: green;*/
+	border-radius: 50%;
+	background:conic-gradient(
+		#830000, 
+		#ebe050, 
+		#eb72f3, 
+		#0572f3);
+}
+
+
+.container .circle3{
+	width:200px;
+	height: 200px;
+	/*background-color: green;*/
+	border-radius: 50%;
+	background:linear-gradient(
+		rgba(127,64,127,1.00), 
+		rgba(119, 0, 255,1.00), 
+		rgba(256,86,156,1.00), 
+		rgba(222,263,222,1.00);)
+}
+
+.container .circle4{
+		width:200px;
+	height: 200px;
+	/*background-color: green;*/
+	border-radius: 50%;
+	background:linear-gradient(
+		red 20%, 
+		green 0% 30%, 
+		blue 0% 80%, 
+		black 0%)
+}
+
+
+.container .circle5{
+	width:200px;
+	height: 200px;
+	/*background-color: green;*/
+	border-radius: 50%;
+	background:radial-gradient(
+		red, 
+		green, 
+		blue, 
+		black);
+}
+
+.container2{
+	width: 600px;
+	height: 300px;
+	background: green;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	position: relative; 
+	color: white;
+}
+
+/*p{
+	position: absolute;
+}
+*/
+.container2 .circle1{
+
+	width: 300px;
+	height: 300px;
+	background: black;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 1;
+}
+
+.container2 .circle2{
+
+	width: 320px;
+	height: 320px;
+	background: linear-gradient(
+		red 0%,
+		violet 30%
+		/*red 0%
+		blue 70%
+		red 0%
+		yellow 100% */);
+
+	border-radius: 50%;
+	position: absolute;
+
+}
+
+.shell{
+	width: 20px;
+	height: 200px;
+	background-color: red;
+	z-index: 2;
+	position: absolute;
+	top: -40px;
+
+	transform-origin: bottom center;
+
+	animation-name: abc;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.pointer{
+	width:20px;
+	height: 20px;
+	border-radius: 50%;
+	background: blue;
+	display: block;
+}
+
+@keyframes abc{
+
+	from{
+		transform: rotate(360deg);
+	}
+
+	to{
+		transform: rotate(0deg);
+	}
+
+}

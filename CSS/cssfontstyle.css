@@ -1,0 +1,59 @@
+.p1{
+	font-family: Harlow Solid Italic;
+}
+
+.p2{
+	font-family: Agency FB;
+	/*font-weight: bold;*/
+	font-weight: bold;
+	/*font-style: italic;*/
+	/*text-transform:uppercase;*/
+	/*text-transform:lowercase;*/
+	/*text-transform: capitalize;*/
+	font-variant: small-caps;
+	text-indent: 20px;
+}
+
+.cm{
+	text-decoration: none;
+	color: black;
+}
+
+.cm:visited{
+	color: red;
+}
+
+.cm:hover{
+	color: pink;
+	font-size: 50px;
+}
+
+.menutext{
+	font-family: sans-serif;
+	background-color:green;
+	color:white;
+	text-decoration: none;
+
+	padding: 20px 0px;
+	/*padding-bottom: 30px;
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-right: 50px;*/
+
+	transition: all 1s;
+}
+
+.menutext:hover{
+	background-color: orange;
+	color:white;
+}
+
+.imgdesign{
+	width:80px;
+	height:80px;
+	transition:all 2s;
+}
+.imgdesign:hover{
+	width:100px;
+	height:100px;
+}

@@ -1,0 +1,42 @@
+.textalign{
+	/*text-align: center;
+	text-align: left;
+	text-align: right;*/
+	text-align: justify;
+}
+
+.textdecoration{
+	/*text-decoration: underline;*/
+	/*text-decoration: overline;*/
+	text-decoration: line-through;
+}
+
+.textline{
+	letter-spacing: 2px;
+	/*line-height: 30px;*/
+	/*line-height: 2;*/
+	line-height: 200%;
+}
+
+.textshadow{
+/*	text-shadow: 5px 5px 5px red;*/
+	text-shadow: -10px -5px 10px blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+For Text Shadow
+
+h= horizontal
+v= veritcal
+b= blur
+c= color*/

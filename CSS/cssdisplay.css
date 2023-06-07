@@ -1,0 +1,112 @@
+.div1{
+	width:600px;
+	height:200px;
+	background-color:orange;
+	color:blue;
+
+/*	margin:30px;
+	margin: 10px 20px 40px 50px;
+	margin-top: 50px;
+	margin-left: 400px;
+	margin-right: 20px;
+	margin-bottom: 400px;*/
+}
+
+.div1 .bank{
+	display: block;
+	margin-left:20px;
+}
+
+.div1 .money{
+	display: block;
+	margin-left: 200px;
+}
+.div1 .coin{
+	display: block;
+	margin-left: 400px;
+	position: absolute;
+}
+
+
+.div2{
+	width:600px;
+	height:200px;
+	background-color:green;
+	color:blue;
+	margin-top: 50px;
+	position: relative;
+}
+
+.div2 .bank{
+	display:block;
+	margin-left:400px;
+}
+
+.div2 .money{
+	display:block;
+	margin-left: 500px;
+	position: absolute;
+
+}
+
+h1{
+	background-color: pink;
+	display: inline;
+}
+
+.display1{
+	width: 300px;
+	height: 100px;
+	background: silver;
+	border: 2px solid orange;
+	/*opacity: 0;
+	opacity: 0;*/
+	/*visibility: hidden;*/
+	/*display:none;*/
+	transform: scale(0);
+}
+
+.display2{
+	width: 300px;
+	height: 100px;
+	background: orange;
+	border: 2px solid orange;
+}
+
+.display3{
+	width: 600px;
+	height: 200px;
+	background: orange;
+	border: 2px solid green;
+	margin-left: 300px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.display3 .r1{
+
+	width: 100px;
+	height: 100px;
+	background: red;
+	color: #fff;
+	border-radius: 50%;
+
+	text-align: center;
+	line-height: 100px;
+
+}
+
+.display3 .r2{
+
+	width: 100px;
+	height: 100px;
+	background: blue;
+	color: #fff;
+	border-radius: 50%;
+
+	text-align: center;
+	line-height: 100px;
+
+}

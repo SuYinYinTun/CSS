@@ -1,0 +1,105 @@
+:root{
+	--rd: red;
+	--bl: blue;
+	--yw: yellow;
+}
+
+.div1{
+	width: 100px;
+	height: 80px;
+	background: var(--rd);
+	transform: rotate(45deg);
+}
+
+.div2{
+	width: 200px;
+	height: 80px;
+	background: purple;
+	transform: rotate(-45deg);
+}
+
+.div3{
+	width: 300px;
+	height: 80px;
+	background: violet;
+	transform: rotateX(45deg);
+}
+
+.div4{
+	width: 400px;
+	height: 80px;
+	background: yellow;
+	transform: rotateY(45deg);
+}
+
+.div5{
+	width: 200px;
+	height: 80px;
+	background: green;
+
+	/*Default =1*/
+	transform: scale(0.5);
+}
+
+.div6{
+	width: 200px;
+	height: 80px;
+	background: gray;
+	/*transform: skew(50deg);*/
+	transform: skew(-50deg);
+}
+
+.div7{
+	width: 200px;
+	height: 80px;
+	background: gold;
+	/*transform: translate(50%);*/
+	/*transform: translate(-50%);*/
+	/*transform: translate(100%);
+	transform: translate(-100%);*/
+
+/*	transform: translate(100px);
+	transform: translate(-500px);
+	transform: translateX(100px);
+	transform: translateX(-100px);
+	transform: translateY(100px);
+	transform: translateY(-100px);*/
+}
+
+.country{
+	font-size: 16px;
+	/*appearance: none;*/
+	-webkit-appearance:none;
+	/*-o-appearance:none;*/
+	/*-ms-appearance:none;*/
+/*	-moz-appearance:none;*/
+	
+	padding: 10px 25px 10px 10px;
+	background-image: url('../Photo/1.jpg');
+	background-size: 15px;
+	background-repeat: no-repeat;
+	background-position: right;
+	background-position-x:95%; 
+
+}
+
+h1{
+	text-align: center;
+}
+
+p.text{
+	text-align: center;
+	color:red;
+
+}
+
+@media(max-width: 600px){
+	h1{
+		font-size: 30px;
+		color: blue;
+	}
+
+	p.text{
+		color: green;
+	}
+}
