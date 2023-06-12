@@ -1,0 +1,37 @@
+nav{
+	width: 1200px;
+}
+
+/*nav ul{
+	list-style: none;
+
+}
+*/
+nav ul li{
+	list-style-type: none;
+	background: green;
+	width: 250px;
+	text-align: center;
+/*	display: inline;*/
+	float: left;
+	border-right: 2px solid black;
+	line-height: 50px;
+
+	transition: all 1s;
+
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+
+}
+
+nav ul li:first-of-type{
+	border-left: 2px solid black;
+}
+
+nav ul li:hover{
+	background: orange;
+	line-height:55px;
+}

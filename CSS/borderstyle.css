@@ -1,0 +1,94 @@
+*{ 
+   cursor: pointer;
+ }
+
+.borderstyle1{
+		border-style:solid;
+}
+
+.borderstyle2{
+		border-style:dotted;
+}
+
+.borderstyle3{
+		border-style:dashed;
+}
+
+.borderstyle4{
+		border-style:double;
+}
+
+.borderstyle5{
+		border-style:inset;
+}
+
+.borderstyle6{
+		border-style:outset;
+}
+
+.borderdesign{
+	width:300px;
+	height:200px;
+	background-color: pink;
+
+	/*border-radius: 30px;*/
+	border-radius: 10px 30px 50px 90px;
+
+/*	border-top-left-radius: 50px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 10px;*/
+
+	/*cursor: pointer;*/
+}
+
+/*.borderdesign{
+			b     s    c
+	border:1px solid green;
+}*/
+
+li{
+/*	list-style-type:none;*/
+	/*list-style:none;*/
+	/*list-style-type: circle;
+	list-style-type: square;
+	list-style-type: decimal;*/
+	list-style-type: decimal-leading-zero;
+
+	list-style-type: inside;
+	/*list-style-type: outside;*/
+
+	border: 1px solid black;
+
+}
+
+.abc{
+	width: 300px;
+	height: 15px;
+	background-color:red;
+	color: #fff;
+	border-radius: 20px;
+}
+
+.abc[type="number"]{
+	background-color: green;
+	color: #fff;
+}
+
+label{
+	display: block;
+}
+
+body{
+	background-image: url(../Photo/Queen.jpg);
+	background-repeat: no-repeat;
+	/*background-position: left;
+	background-position: center;
+	background-position: right;
+	background-position: bottom;
+	background-position: top;
+	background-position: right top;
+	background-position: left bottom;
+	background-position: right bottom;*/
+	background-position: left top;
+}
